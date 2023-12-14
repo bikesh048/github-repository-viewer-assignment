@@ -1,0 +1,25 @@
+import colors from 'tailwindcss/colors';
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      boxShadow: {
+        c: '0 1px 6px rgb(32 33 36 / 28%)',
+        c2: '0 1px 1px rgb(0 0 0 / 10%)',
+      },
+      colors: {
+        secondary: {
+          DEFAULT: colors.neutral[200],
+          hover: colors.neutral[300],
+          border: colors.neutral[400],
+          text: colors.neutral[500],
+          dark: colors.neutral[800],
+          ['dark-hover']: colors.neutral[900],
+        },
+      },
+    },
+  },
+  plugins: [],
+};
