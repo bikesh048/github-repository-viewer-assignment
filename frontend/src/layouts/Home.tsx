@@ -3,6 +3,9 @@ import Footer from '../components/Footer';
 import HomeHeader from '../components/HomeHeader';
 import SearchInput from '../components/SearchInput';
 
+// TODO
+// Button feature need to be added
+
 const Home: React.FC = () => {
   return (
     <div className='flex h-[100vh] flex-col'>

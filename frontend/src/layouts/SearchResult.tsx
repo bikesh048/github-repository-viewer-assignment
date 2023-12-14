@@ -7,6 +7,9 @@ import { fetchDataFromApi, RepositoriesData } from '../utils/api';
 import NoData from '../components/NoData';
 // import Pagination from '../components/Pagination';
 
+// TODO
+// Below code need to refactor and add pagination
+
 const SearchResult: React.FC = () => {
   const [result, setResult] = useState<RepositoriesData[]>([]); // Specify the type for result
   const [error, setError] = useState<string | null>(null);

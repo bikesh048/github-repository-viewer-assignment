@@ -2,3 +2,11 @@
 
 Documents
 [Link Text](https://docs.google.com/document/d/1f8P-BPqXI4FncsMnh1EtFxkkHlqes2V8Ll8D2LWaEBM/edit?usp=sharing)
+
+## TODO
+
+# Make button work properly
+
+# Refactor some code
+
+# Add pagination
